@@ -1,0 +1,1522 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+@font-face {
+    font-family: Iranyekanmedium;
+    src: url('fonts/IRANYEKANMEDIUM.woff') format('woff');}
+
+@font-face {
+        font-family: Iranyekanblack;
+        src: url('fonts/IRANYEKANBLACK.woff') format('woff');}
+
+
+
+.top-nav {display: flex;
+          background-color: #6CB5CF;
+}
+
+
+.right-container {
+    display: flex;
+    height: 80px;
+    font-family:Iranyekanmedium ;
+    flex-direction: row;
+    width: 80%;
+    justify-content: flex-start;
+    align-items: center;}
+
+ .logo-image {height: 72%;
+        width: 6%;
+        align-items: center;
+        padding-right: 20px;
+       }
+
+    .top-a {
+        font-style: none;
+        text-decoration: none;
+        color:white;  
+        padding: 26px;
+        transition: width 3s ease 2s;
+    }
+    
+    .top-a:hover {background-color: #2F92B5; }
+
+
+.left-container {
+    display: flex;
+    width:20% ;
+    align-items: center;
+    direction: ltr;
+    padding-left: 4%;
+}
+
+.sign-in {text-decoration: none;
+          font-family: Iranyekanmedium ;
+          color: white;
+          padding: 26px;
+
+          }
+
+.sign-in:hover {background-color: #2F92B5; }
+
+
+.cyberpunkPL-pic-countainer { 
+                    height:523px;
+                    width: 100%;
+                    display: flex;
+
+                    }
+
+   .cyberpunkPL-image-div {width: 100%;}
+
+        
+        img.cyberpunkPL {height: 100%; 
+                        width: 100%;
+                        object-fit:cover;
+                        }
+
+
+
+
+img.cyberpunkPL:hover {opacity: 80%;}
+
+
+
+
+
+
+        
+.most-download-line {  display: flex;
+                margin-top: 0;
+                background-color: white;
+                height: 100px;
+                width: 100%;
+                justify-content: center;
+                align-items: center;
+}
+
+.most-download-header { font-family: Iranyekanblack;
+                 color: #6CB5CF;
+                 font-size: 50px;
+                 }
+
+
+
+
+.most-download-div { display: flex;
+                    width: 100%;
+                    height: 210px;
+                    }
+
+
+        .most-download-links-1-div {
+                            width: 25%;
+}
+
+                img.codmw2 {
+                    width: 100%;
+                    height: 100%;  
+                    object-fit: cover; 
+                        }
+
+                 img.codmw2:hover {opacity: 80%;}
+
+
+
+        .most-download-links-2-div {
+                             width: 25%;}
+
+
+                img.Rainbow {
+                         width: 100%;
+                        height: 100%; 
+                        object-fit: cover; }
+
+                img.Rainbow:hover {opacity: 80%;} 
+
+    
+   
+        .most-download-links-3-div {
+                                    width: 25%;}
+                img.eafc24 {
+                         width: 100%;
+                         height: 100%;
+                         object-fit: cover; 
+                            }
+
+                img.eafc24:hover {opacity: 80%;} 
+
+    
+    
+        .most-download-links-4-div {
+                              width: 25%;}   
+                img.readdead2 {
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover; 
+                                }
+
+                img.readdead2:hover {opacity: 80%;} 
+
+
+
+
+
+
+
+.the-latest-news-line {display: flex;
+    margin-top: 0;
+    background-color: white;
+    height: 100px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;}
+
+.the-latest-news-header {
+    font-family: Iranyekanblack;
+    color: #6CB5CF;
+    font-size: 50px;
+}
+
+
+
+
+.Grandpa-latest-news-1 {height: auto;
+                        width: 100%;}
+
+    .dad-latest-news-1 {display: flex;
+                            width: 100%; 
+                           justify-content: flex-start;
+                           }
+
+        
+       
+                    
+        .the-latest-news-links-1 {text-decoration: none;
+                                   color: black; 
+                                   }
+
+                     img.gta6 {width: 100%;
+                                height: 100%;
+                                object-fit: cover;
+                                border-radius: 2%;
+                                margin-right: 2%;
+                }
+                    img.gta6:hover {opacity:80%;}
+
+                    .dads-son-1 {width: 50%;
+                                height: 200PX;}
+                    .dads-son-2 {width: 50%;}
+
+                    .gta6-header {font-family: Iranyekanmedium;
+                                    vertical-align: top;
+                                    padding-right: 10px;
+                                    padding-left: 10px;
+                                     }
+
+                     .gta-paragraph {font-family: Iranyekanmedium;
+                                             padding-top: 27px;
+                                             padding-right: 10px;
+                                             padding-left: 10px;
+                                                 }
+
+        
+        .the-latest-news-links-2 {text-decoration: none;
+                                  color: black;}
+
+                     .dads-daughter-1 {width: 50%;
+                                        height: 200px;}
+                     .dads-daughter-2 {width: 50%;}
+
+                      img.cyberpunk2077 {width: 100%;
+                                         height: 100%;
+                                        object-fit: cover;
+                                        border-radius: 2%;
+                                       }
+              
+                              img.cyberpunk2077:hover {opacity:80%;}
+
+                     .cyberpunk2077-header {font-family: Iranyekanmedium;
+                                             vertical-align: top;
+                                             padding-right: 10px;
+                                             padding-left: 10px;
+                                                     }
+
+                     .cyberpunk2077-paragraph {font-family: Iranyekanmedium;
+                                                 padding-top: 27px;
+                                                 padding-right: 10px;
+                                                 padding-left: 10px;
+                                   
+                               }
+
+
+.border-under-latest-news-1 {border-bottom: 2px solid #bebebe;
+                                margin-top: 20px;
+                                margin-bottom: 20px;
+                                margin-left: 120px;
+                                margin-right: 120px;}
+
+
+
+   
+    .dad-latest-news-2{display: flex;
+                        width: 100%;
+                       }
+
+
+              .the-latest-news-links-3 {text-decoration: none;
+                                   color: black;}
+                                
+                        .dads-son-3 {width: 50%;
+                                    height: 200px;}
+                        .dads-son-4 {width: 50%;}
+
+                        img.mw3 {width: 100%;
+                            height: 100%;
+                           object-fit: cover;
+                           border-radius: 2%;
+                           margin-right: 2%;
+                           }
+
+                         img.mw3:hover {opacity:80%;}
+
+                         .mw3-header {font-family: Iranyekanmedium;
+                                vertical-align: top;
+                                padding-right: 10px;
+                                padding-left: 10px;
+                                        }
+
+                         .mw3-paragraph {font-family: Iranyekanmedium;
+                                    padding-top: 27px;
+                                    padding-right: 10px;
+                                    padding-left: 10px;
+                                    }
+
+
+            .the-latest-news-links-4 {text-decoration: none;
+                                       color: black;}
+
+
+                        .dads-daughter-3 {width: 50%;
+                                            height:200px;}
+                        .dads-daughter-4{width: 50%;}
+
+                        img.lies-of-p {width: 100%;
+                                        height: 100%;
+                                        object-fit: cover;
+                                        border-radius: 2%;
+                                        }
+             
+                                 img.lies-of-p:hover {opacity:80%;}
+
+                        .lies-of-p-header {font-family: Iranyekanmedium;
+                                            vertical-align: top;
+                                            padding-right: 10px;
+                                             padding-left: 10px;
+                                                    }
+
+                        .lies-of-p-paragraph {font-family: Iranyekanmedium;
+                                                padding-top: 27px;
+                                                padding-right: 10px;
+                                                padding-left: 10px;
+                                             }
+                
+  
+.border-under-latest-news-2 {border-bottom: 2px solid #bebebe;
+                            margin-top: 20px;
+                            margin-bottom: 20px;
+                            margin-left: 120px;
+                            margin-right: 120px;}
+                            
+     .dad-latest-news-3{display: flex;
+                      width: 100%;
+                 }    
+
+            .the-latest-news-links-5{text-decoration: none;
+                    color: black;}
+
+                 
+                    .dads-son-5 {width: 50%;
+                                height: 200px;}
+                    .dads-son-6 {width: 50%;}
+
+                    img.rdr3 {width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                        border-radius: 2%;
+                        margin-right: 2%;
+                       }
+
+                     img.rdr3:hover {opacity:80%;}
+
+                     .rdr3-header {font-family: Iranyekanmedium;
+                            vertical-align: top;
+                            padding-right: 10px;
+                            padding-left: 10px;
+                                    }
+
+                     .rdr3-paragraph {font-family: Iranyekanmedium;
+                                padding-top: 27px;
+                                padding-right: 10px;
+                                padding-left: 10px;
+                                }
+
+                
+             .the-latest-news-links-6 {text-decoration: none;
+                                    color: black;}
+
+
+                     .dads-daughter-5{width: 50%;
+                                        height: 200px;}
+                     .dads-daughter-6{width: 50%;}
+
+                     img.fc24-hot-news {width: 100%;
+                                        height: 100%;
+                                        object-fit: cover;
+                                        border-radius: 2%;
+                                                        }
+          
+                              img.fc24-hot-news:hover {opacity:80%;}
+
+                     .fc24-hot-news-header {font-family: Iranyekanmedium;
+                                         vertical-align: top;
+                                         padding-right: 10px;
+                                         padding-left: 10px;
+                                                 }
+
+                     .fc24-hot-news-paragraph {font-family: Iranyekanmedium;
+                                             padding-top: 27px;
+                                             padding-right: 10px;
+                                             padding-left: 10px;
+                                          }
+
+
+.more-hot-news-line {display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 100%;
+                    background-color: #6CB5CF;
+                    height: 50px;
+                    margin-top: 20px;}
+
+    .more-hot-news-link {text-decoration: none;}
+
+    .more-hot-news-paragraph {text-decoration: none;
+                                color: white;
+                              font-family:Iranyekanblack;
+                              font-size: x-large;}
+
+
+
+                              
+.line-under-hotnews-container {display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                margin-top: 100px;
+                                }
+
+                .first-line { 
+                        border: 1px solid #bebebe;
+                        width: 33%;
+                        margin-left: 70px;
+                        margin-right: 50px;
+                       }
+                .p-in-line {width: 33%;
+                            font-family:Iranyekanmedium;
+                            color: #2F92B5;
+                            font-size: 52px;
+                            padding-left: 30px;}
+                .second-line { border: 1px solid #bebebe;
+                    width: 33%;
+                    margin-left:50px;
+                    margin-right: 70px;
+                   }
+
+
+.khadamat-whole-container {display: flex;
+                            justify-content: space-evenly;
+                            margin-top: 80px;}
+
+        .dollar-image { width: 33%;
+                        height: 100px;}
+                            
+        .buy-accounts {display: flex;
+                        flex-direction: column;
+                        align-items:center;
+                                }
+
+                img.dollar-symbol {height: 100%;
+                                width: 100%;
+                                object-fit: cover;}
+
+
+                .dollar-h1 {color: black;
+                        font-family: Iranyekanmedium;
+                        padding-top: 30px;
+                                }
+
+
+                .dollar-text-2{margin-top: 20px;}
+
+                .dollar-p {font-family:Iranyekanmedium;
+                            font-size: medium;
+                        text-align: center;}
+
+    
+    
+        .download-data {display: flex;
+                       flex-direction: column;
+                      align-items:center;
+                         }
+
+
+                .data-image { width: 33%;
+                    height: 100px;}
+
+
+                img.data-symbol {height: 100%;
+                                width: 100%;
+                                object-fit: cover;}
+
+
+                .data-h1 {color: black;
+                        font-family: Iranyekanmedium;
+                        padding-top: 30px;
+                            }
+
+                
+                .data-text-2{margin-top: 20px;}
+
+                .data-p {font-family:Iranyekanmedium;
+                                        font-size: medium;
+                                    text-align: center;}
+
+        
+         .read-last-news {display: flex;
+                         flex-direction: column;
+                        align-items:center;
+                                  }
+
+                .last-news-image {width: 33%;
+                                  height: 100px;}
+         
+                img.last-news-symbol {height: 100%;
+                                        width: 100%;
+                                        object-fit: cover;}
+         
+         
+                .last-news-h1 {color: black;
+                        font-family: Iranyekanmedium;
+                        padding-top: 30px;
+                                     }
+
+
+                 .last-news-text-2{margin-top: 20px;}
+
+                 .last-news-p {font-family:Iranyekanmedium;
+                        font-size: medium;
+                         text-align: center;}
+                     
+
+
+.line-under-khadamat{ 
+                    display: flex;
+                    border-bottom:2px solid #bebebe;
+                    margin-top: 20px;
+                    margin-bottom: 70px;
+                    margin-left: 70px;
+                    margin-right: 70px;
+
+                    
+}
+
+.most-bought-accounts-text {display: flex;
+                            justify-content: center;
+                            margin-bottom: 60px;
+                            }
+            .most-bought-accounts-p {font-family:Iranyekanblack;
+                                    color: #6CB5CF;
+                                    font-size: 80px;}
+
+
+
+
+
+.most-bought-accounts {width: 100%;
+                        display: flex;
+                        }
+
+            .most-bought-accounts:hover {opacity: 80%;}
+
+    .eafc24-account {display: flex;
+                            width: 100%;
+                            justify-content: flex-end;
+                           }
+            
+            .eafc24-description {display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                width: 70%;
+                                background-color:#6CB5CF;
+                                height: 400px;
+                                }
+            
+            .eafc-description-2 {display: flex;
+                                flex-direction: column;
+                                align-items: center;
+                                gap: 10px;
+                                }
+           
+
+            .eafc24-account-link {text-decoration: none;
+                                 color: white;
+                                width: 100%;}
+
+            .eafc24-description-h {font-family:Iranyekanblack;
+                                    font-size: 150px;
+                                    }
+            
+            .eafc24-description-p {font-family:Iranyekanmedium;
+                                    font-size: 30px;
+                                   }
+
+            .eafc24-click {font-size: 15px;}
+
+                    
+
+    .eafc24-image {width: 30%;
+                    height: 400px;
+                    display: flex;
+                 }
+
+            .eafc24-Halland {object-fit: cover;
+                             height: 100%;
+                            width: 100%;}
+
+
+
+
+
+
+.most-bought-accounts-2 {width: 100%;
+                        display: flex;
+                                }   
+
+
+    .most-bought-accounts-2:hover {opacity: 80%;}
+
+            .reddead2-account {display: flex;
+                                width: 100%;
+                                justify-content: flex-end;
+                                                       }
+                                        
+                 .reddead2-description {display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                        width: 70%;
+                                        background-color:white;
+                                        height: 400px;
+                                                            }
+                                        
+                .reddead2-description-2 {display: flex;
+                                        flex-direction: column;
+                                        align-items: center;
+                                        gap: 70px;
+                                                            }
+                                       
+                            
+                .reddead2-account-link {text-decoration: none;
+                                        color: #6CB5CF;
+                                        width: 100%;}
+                            
+                .reddead2-description-h {font-family:Iranyekanblack;
+                                        font-size: 70px;
+                                                                }
+                                        
+                .reddead2-description-p {font-family:Iranyekanmedium;
+                                        font-size: 30px;
+                                                               }
+                            
+                .reddead2-click {font-size: 15px;}
+                            
+                                                
+                            
+            .reddead2-image {width: 30%;
+                                height: 400px;
+                                display: flex;
+                                             }
+                            
+                        .reddead2-Arthur {object-fit: cover;
+                                height: 100%;
+                                width: 100%;}
+
+        
+
+                
+                                
+                                
+                                
+                                
+.most-bought-accounts-3 {width: 100%;
+                        display: flex;
+                                    }
+            
+                .most-bought-accounts-3:hover {opacity: 80%;}
+            
+            .gtav-account {display: flex;
+                                        width: 100%;
+                                        justify-content: flex-end;
+                                       }
+                        
+                        .gtav-description {display: flex;
+                                            justify-content: center;
+                                            align-items: center;
+                                            width: 70%;
+                                            background-color:#6CB5CF;
+                                            height: 400px;
+                                            }
+                        
+                        .gtav-description-2 {display: flex;
+                                            flex-direction: column;
+                                            align-items: center;
+                                            gap: 10px;
+                                            }
+                       
+            
+                        .gtav-account-link {text-decoration: none;
+                                             color: white;
+                                            width: 100%;}
+            
+                        .gtav-description-h {font-family:Iranyekanblack;
+                                                font-size: 150px;
+                                                }
+                        
+                        .gtav-description-p {font-family:Iranyekanmedium;
+                                                font-size: 30px;
+                                               }
+            
+                        .gtav-click {font-size: 15px;}
+            
+                                
+            
+                .gtav-image {width: 30%;
+                                height: 400px;
+                                display: flex;
+                             }
+            
+                        .GTAV-most-download-img {object-fit: cover;
+                                         height: 100%;
+                                        width: 100%;}
+        
+
+
+
+                                        
+                                        
+                                        
+                                        
+                                        
+                                        
+.most-bought-accounts-4 {width: 100%;
+                        display: flex;
+                                                    }   
+                    
+                    
+                .most-bought-accounts-4:hover {opacity: 80%;}
+                    
+                                .witcher3-account {display: flex;
+                                                    width: 100%;
+                                                    justify-content: flex-end;
+                                                                           }
+                                                            
+                                     .witcher3-description {display: flex;
+                                                            justify-content: center;
+                                                            align-items: center;
+                                                            width: 70%;
+                                                            background-color:white;
+                                                            height: 400px;
+                                                                                }
+                                                            
+                                    .witcher3-description-2 {display: flex;
+                                                            flex-direction: column;
+                                                            align-items: center;
+                                                            gap: 70px;
+                                                                                }
+                                                           
+                                                
+                                    .witcher3-account-link {text-decoration: none;
+                                                            color: #6CB5CF;
+                                                            width: 100%;}
+                                                
+                                    .witcher3-description-h {font-family:Iranyekanblack;
+                                                            font-size: 110px;
+                                                                                    }
+                                                            
+                                    .witcher3-description-p {font-family:Iranyekanmedium;
+                                                            font-size: 30px;
+                                                                                   }
+                                                
+                                    .witcher3-click {font-size: 15px;}
+                                                
+                                                                    
+                                                
+                                .witcher3-image {width: 30%;
+                                                    height: 400px;
+                                                    display: flex;
+                                                                 }
+                                                
+                                .witcher3-gralt {object-fit: cover;
+                                                    height: 100%;
+                                                    width: 100%;}
+                    
+
+
+
+
+.most-sold-games-line {background-color: #6CB5CF;
+                        height: 60px;
+                        width: 100%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+
+                .most-sold-games-link {text-decoration: none;
+                                        color: white;
+                                      }
+
+                .most-sold-games-paragraph {font-size: 25px;
+                                            font-family: Iranyekanblack;}
+
+
+
+
+.line-above-articles {display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        height: 120px;
+                        width: 100%;
+                        margin-top: 50px;
+                        margin-bottom: 50px;}
+
+                .h-above-articles {font-family:Iranyekanblack;
+                                    font-size: 80px;
+                                    color: #6CB5CF;}
+
+
+
+
+
+
+
+
+
+
+.article-1 {display: flex;
+             width: 100%;
+            justify-content: space-evenly;
+            background-color: #6CB5CF;
+            height: 330px;
+                                                            }
+                                                    
+                .assassins-creed-mirage-article{display: flex;
+                                                 width: 100%;
+                                                justify-content: flex-start;
+                                                align-items: center;
+                                                            }
+                                                    
+                        .assassins-creed-mirage-image-div {height: 300px;
+                                                    width: 25%;
+                                                    }
+                                                                                    
+                            .assassins-creed-mirage-img {width: 100%;
+                                                    height: 100%;
+                                                    object-fit: contain;}
+                                                    
+                                                    
+                                                    
+                        .assassins-creed-mirage-description-div {display: flex;
+                                                                width: 67%;
+                                                                justify-content: center;
+                                                                align-items: center;
+                                                                gap: 50px;}
+                                                                                
+                            .assassins-creed-mirage-h-div {width: 33%;}
+                                                    
+                                    .assassins-creed-mirage-h {color: white;
+                                                                font-family:Iranyekanblack;
+                                                                font-size: 40px;
+                                                                text-align: center;
+                                                                            }
+                                                    
+                                                    
+                                    .assassins-creed-mirage-p-div {width: 40%;
+                                                                    display: flex;
+                                                                            }
+                                                    
+                                    .assassins-creed-mirage-p {color: white;
+                                                                font-family:Iranyekanmedium;
+                                                                font-size: 20px;}
+                                                    
+                                        .edame-assassins-creed-mirage-link {color: white;
+                                                                            text-decoration: none;
+                                                                                        }
+                                                    
+                                        .edame-assassins-creed-mirage {font-size: 13px;
+                                                                                }
+                                                    
+                                                    
+                                                    
+                                                    
+                                                    
+                                                    
+                                                    
+                                        .border-beside-writer {width: 2%;
+                                                                border-left: 1px solid white;
+                                                                height: 200px;}
+                                                    
+                                                    
+                                                    
+                                                    
+                                                    
+                                                    
+                                        .assassins-creed-mirage-writer-div {display: flex;
+                                                                            width: 17%;
+                                                                            height: 300px;
+                                                                            flex-direction: column;
+                                                                            justify-content: center;
+                                                                            align-items: center;
+                                                                            gap: 20px;
+                                                                                                        
+                                                                        }
+                                                    
+                                                .assassins-creed-mirage-writer-img-div {
+                                                                                    width: 50%;
+                                                                                    height: 70px;
+                                                                                        }
+                                                    
+                                                                                    
+                                                .assassins-creed-mirage-writer-img {width: 100%;
+                                                                                    height: 100%;
+                                                                                    object-fit: contain;
+                                                                                                                    }
+                                                    
+                                                .assassins-creed-mirage-writer-name-p {color: black;
+                                                                                    font-family:Iranyekanmedium;
+                                                                                    width: 90px;
+                                                                                    text-align: center;}
+                                                    
+                                                    
+                                        .time-icon-assassins-creed-mirage-div {width: 15%;
+                                                                             height: 100px;
+                                                                        display: flex;
+                                                                         justify-content: center;
+                                                                            align-items: center;
+                                                                            padding-right: 20px;}
+                                                    
+                                                                            
+                                        .time-icon-assassins-creed-mirage-div{ display: flex;
+                                                                            flex-direction: column;
+                                                                             gap: 30px;
+                                                                            justify-content: center;
+                                                                            align-items: center;
+                                                                                                                    }
+                                                    
+                                                                        .time-icon-assassins-creed-mirage-p {font-family:Iranyekanmedium;
+                                                                                                                font-size: 13px;
+                                                                                                                text-align: center;}
+                                                    
+
+
+                    
+                                
+                                
+
+.article-2 {display: flex;
+            width: 100%;
+            justify-content: space-evenly;
+            background-color: #6CB5CF;
+            height: 330px;
+                                    }
+                                                                                                        
+                .witcher3-article-div{display: flex;
+                                    width: 100%;
+                                    justify-content: flex-start;
+                                    align-items: center;
+                                                            }
+                                                                                                        
+                            .witcher3-article-image-div {height: 300px;
+                                                            width: 25%;
+                                                }
+                                                                                                                                        
+                                    .witcher3-article-img {width: 100%;
+                                                        height: 100%;
+                                                        object-fit: contain;}
+                                                                                                        
+                                                                                                        
+                                                                                                        
+                            .witcher3-article-description-div {display: flex;
+                                                                width: 67%;
+                                                                justify-content: center;
+                                                                align-items: center;
+                                                                gap: 50px;}
+                                                                                                                                    
+                                        .witcher3-article-h-div {width: 33%;}
+                                                                                                        
+                                                .witcher3-article-h {color: white;
+                                                                    font-family:Iranyekanblack;
+                                                                    font-size: 40px;
+                                                                    text-align: center;
+                                                                                    }
+                                                                                                        
+                                                                                                        
+                                                .witcher3-article-p-div {width: 40%;
+                                                                        display: flex;
+                                                                                        }
+                                                                                                        
+                                                        .witcher3-article-p {color: white;
+                                                                            font-family:Iranyekanmedium;
+                                                                            font-size: 20px;}
+                                                                                                        
+                                                                .edame-witcher3-article-link {color: white;
+                                                                                            text-decoration: none;
+                                                                                                             }
+                                                                                                        
+                                                                    .edame-witcher3-article {font-size: 13px;
+                                                                                                             }
+                                                                                                        
+                                                                                                        
+                                                                                                        
+                                                                                                        
+                                                                                                        
+                                                                                                        
+                                                                                                        
+                                                                                                        
+                            .border-beside-writer-2 {width: 2%;
+                                border-left: 1px solid white;
+                                            height: 200px;}
+                                                                                                        
+                                                                                                        
+                                                                                                        
+                                                                                                        
+                                                                                                        
+                                                                                                        
+                            .witcher3-article-writer-div {display: flex;
+                                                        width: 17%;
+                                                        height: 300px;
+                                                        flex-direction: column;
+                                                        justify-content: center;
+                                                        align-items: center;
+                                                        gap: 20px;
+                                                                                                                                                            
+                                                                }
+                                                                                                        
+                                .witcher3-article-writer-img-div {
+                                                            width: 50%;
+                                                            height: 70px;
+                                                             }
+                                                                                                        
+                                                                                                                                        
+                                    .witcher3-article-writer-img {width: 100%;
+                                                            height: 100%;
+                                                            object-fit: contain;
+                                                                            }
+                                                                                                        
+                                            .witcher3-article-writer-name-p {color: black;
+                                                                            font-family:Iranyekanmedium;
+                                                                            width: 90px;
+                                                                            text-align: center;}
+                                                                                                        
+                                                                                                        
+                                                        .time-icon-witcher3-article-div {width: 15%;
+                                                                                        height: 100px;
+                                                                                         display: flex;
+                                                                                        justify-content: center;
+                                                                                        align-items: center;
+                                                                                        padding-right: 20px;}
+                                                                                                        
+                                                                                                                                
+                                            .time-icon-witcher3-article-div{ display: flex;
+                                                                    flex-direction: column;
+                                                                    gap: 30px;
+                                                                    justify-content: center;
+                                                                    align-items: center;
+                                                                                        }
+                                                                                                        
+                                            .time-icon-witcher3-article-p {font-family:Iranyekanmedium;
+                                                                        font-size: 13px;
+                                                                        text-align: center;}
+
+
+
+
+.article-2 {display: flex;
+            width: 100%;
+            justify-content: space-evenly;
+            background-color: #6CB5CF;
+            height: 330px;
+                                    }
+                                                                                                        
+                .witcher3-article-div{display: flex;
+                                    width: 100%;
+                                    justify-content: flex-start;
+                                    align-items: center;
+                                                            }
+                                                                                                        
+                            .witcher3-article-image-div {height: 300px;
+                                                            width: 25%;
+                                                }
+                                                                                                                                        
+                                    .witcher3-article-img {width: 100%;
+                                                        height: 100%;
+                                                        object-fit: contain;}
+                                                                                                        
+                                                                                                        
+                                                                                                        
+                            .witcher3-article-description-div {display: flex;
+                                                                width: 67%;
+                                                                justify-content: center;
+                                                                align-items: center;
+                                                                gap: 50px;}
+                                                                                                                                    
+                                        .witcher3-article-h-div {width: 33%;}
+                                                                                                        
+                                                .witcher3-article-h {color: white;
+                                                                    font-family:Iranyekanblack;
+                                                                    font-size: 40px;
+                                                                    text-align: center;
+                                                                                    }
+                                                                                                        
+                                                                                                        
+                                                .witcher3-article-p-div {width: 40%;
+                                                                        display: flex;
+                                                                                        }
+                                                                                                        
+                                                        .witcher3-article-p {color: white;
+                                                                            font-family:Iranyekanmedium;
+                                                                            font-size: 20px;}
+                                                                                                        
+                                                                .edame-witcher3-article-link {color: white;
+                                                                                            text-decoration: none;
+                                                                                                             }
+                                                                                                        
+                                                                    .edame-witcher3-article {font-size: 13px;
+                                                                                                             }
+                                                                                                        
+                                                                                                        
+                                                                                                        
+                                                                                                        
+                                                                                                        
+                                                                                                        
+                                                                                                        
+                                                                                                        
+                            .border-beside-writer-2 {width: 2%;
+                                border-left: 1px solid white;
+                                            height: 200px;}
+                                                                                                        
+                                                                                                        
+                                                                                                        
+                                                                                                        
+                                                                                                        
+                                                                                                        
+                            .witcher3-article-writer-div {display: flex;
+                                                        width: 17%;
+                                                        height: 300px;
+                                                        flex-direction: column;
+                                                        justify-content: center;
+                                                        align-items: center;
+                                                        gap: 20px;
+                                                                                                                                                            
+                                                                }
+                                                                                                        
+                                .witcher3-article-writer-img-div {
+                                                            width: 50%;
+                                                            height: 70px;
+                                                             }
+                                                                                                        
+                                                                                                                                        
+                                    .witcher3-article-writer-img {width: 100%;
+                                                            height: 100%;
+                                                            object-fit: contain;
+                                                                            }
+                                                                                                        
+                                            .witcher3-article-writer-name-p {color: black;
+                                                                            font-family:Iranyekanmedium;
+                                                                            width: 90px;
+                                                                            text-align: center;}
+                                                                                                        
+                                                                                                        
+                                                        .time-icon-witcher3-article-div {width: 15%;
+                                                                                        height: 100px;
+                                                                                         display: flex;
+                                                                                        justify-content: center;
+                                                                                        align-items: center;
+                                                                                        padding-right: 20px;}
+                                                                                                        
+                                                                                                                                
+                                            .time-icon-witcher3-article-div{ display: flex;
+                                                                    flex-direction: column;
+                                                                    gap: 30px;
+                                                                    justify-content: center;
+                                                                    align-items: center;
+                                                                                        }
+                                                                                                        
+                                            .time-icon-witcher3-article-p {font-family:Iranyekanmedium;
+                                                                        font-size: 13px;
+                                                                        text-align: center;}
+
+
+.article-2 {display: flex;
+            width: 100%;
+            justify-content: space-evenly;
+            background-color: #6CB5CF;
+            height: 330px;
+                                    }
+                                                                                                        
+                .witcher3-article-div{display: flex;
+                                    width: 100%;
+                                    justify-content: flex-start;
+                                    align-items: center;
+                                                            }
+                                                                                                        
+                            .witcher3-article-image-div {height: 300px;
+                                                            width: 25%;
+                                                }
+                                                                                                                                        
+                                    .witcher3-article-img {width: 100%;
+                                                        height: 100%;
+                                                        object-fit: contain;}
+                                                                                                        
+                                                                                                        
+                                                                                                        
+                            .witcher3-article-description-div {display: flex;
+                                                                width: 67%;
+                                                                justify-content: center;
+                                                                align-items: center;
+                                                                gap: 50px;}
+                                                                                                                                    
+                                        .witcher3-article-h-div {width: 33%;}
+                                                                                                        
+                                                .witcher3-article-h {color: white;
+                                                                    font-family:Iranyekanblack;
+                                                                    font-size: 40px;
+                                                                    text-align: center;
+                                                                                    }
+                                                                                                        
+                                                                                                        
+                                                .witcher3-article-p-div {width: 40%;
+                                                                        display: flex;
+                                                                                        }
+                                                                                                        
+                                                        .witcher3-article-p {color: white;
+                                                                            font-family:Iranyekanmedium;
+                                                                            font-size: 20px;}
+                                                                                                        
+                                                                .edame-witcher3-article-link {color: white;
+                                                                                            text-decoration: none;
+                                                                                                             }
+                                                                                                        
+                                                                    .edame-witcher3-article {font-size: 13px;
+                                                                                                             }
+                                                                                                        
+                                                                                                        
+                                                                                                        
+                                                                                                        
+                                                                                                        
+                                                                                                        
+                                                                                                        
+                                                                                                        
+                            .border-beside-writer-2 {width: 2%;
+                                border-left: 1px solid white;
+                                            height: 200px;}
+                                                                                                        
+                                                                                                        
+                                                                                                        
+                                                                                                        
+                                                                                                        
+                                                                                                        
+                            .witcher3-article-writer-div {display: flex;
+                                                        width: 17%;
+                                                        height: 300px;
+                                                        flex-direction: column;
+                                                        justify-content: center;
+                                                        align-items: center;
+                                                        gap: 20px;
+                                                                                                                                                            
+                                                                }
+                                                                                                        
+                                .witcher3-article-writer-img-div {
+                                                            width: 50%;
+                                                            height: 70px;
+                                                             }
+                                                                                                        
+                                                                                                                                        
+                                    .witcher3-article-writer-img {width: 100%;
+                                                            height: 100%;
+                                                            object-fit: contain;
+                                                                            }
+                                                                                                        
+                                            .witcher3-article-writer-name-p {color: black;
+                                                                            font-family:Iranyekanmedium;
+                                                                            width: 90px;
+                                                                            text-align: center;}
+                                                                                                        
+                                                                                                        
+                                                        .time-icon-witcher3-article-div {width: 15%;
+                                                                                        height: 100px;
+                                                                                         display: flex;
+                                                                                        justify-content: center;
+                                                                                        align-items: center;
+                                                                                        padding-right: 20px;}
+                                                                                                        
+                                                                                                                                
+                                            .time-icon-witcher3-article-div{ display: flex;
+                                                                    flex-direction: column;
+                                                                    gap: 30px;
+                                                                    justify-content: center;
+                                                                    align-items: center;
+                                                                                        }
+                                                                                                        
+                                            .time-icon-witcher3-article-p {font-family:Iranyekanmedium;
+                                                                        font-size: 13px;
+                                                                        text-align: center;}
+                                                
+            
+
+                    
+
+
+
+
+
+
+
+.article-3 {display: flex;
+            width: 100%;
+            justify-content: space-evenly;
+            background-color: #6CB5CF;
+            height: 330px;
+                                  }
+                                                                                                                                                                        
+            .gta6-article-div{display: flex;
+                                width: 100%;
+                                justify-content: flex-start;
+                                align-items: center;
+                                                 }
+                                                                                                                                                                    
+                    .gta6-article-image-div {height: 300px;
+                                                width: 25%;
+                                                }
+                                                                                                                                                                                                        
+                            .gta6-article-img {width: 100%;
+                                                height: 100%;
+                                                object-fit: contain;}
+                                                                                                                                                                        
+                                                                                                                                                                        
+                                                                                                                                                                        
+                    .gta6-article-description-div {display: flex;
+                                                    width: 67%;
+                                                    justify-content: center;
+                                                    align-items: center;
+                                                    gap: 50px;}
+                                                                                                                                                                                                    
+                            .gta6-article-h-div {width: 33%;}
+                                                                                                                                                                        
+                            .gta6-article-h {color: white;
+                                                font-family:Iranyekanblack;
+                                                font-size: 35px;
+                                                text-align: center;
+                                                            }
+                                                                                                                                                                        
+                                                                                                                                                                        
+                            .gta6-article-p-div {width: 40%;
+                                                    display: flex;
+                                                                     }
+                                                                                                                                                                        
+                                    .gta6-article-p {color: white;
+                                                        font-family:Iranyekanmedium;
+                                                        font-size: 20px;}
+                                                                                                                                                                        
+                                    .edame-gta6-article-link {color: white;
+                                                                text-decoration: none;
+                                                                                }
+                                                                                                                                                                        
+                                    .edame-gta6-article {font-size: 13px;
+                                                            }
+                                                                                                                                                                        
+                                                                                                                                                                        
+                                                                                                                                                                        
+                                                                                                                                                                        
+                                                                                                                                                                        
+                                                                                                                                                                        
+                                                                                                                                                                        
+                                                                                                                                                                        
+                                        .border-beside-writer-1 {width: 2%;
+                                                                border-left: 1px solid white;
+                                                                height: 200px;}
+                                                                                                                                                                        
+                                                                                                                                                                        
+                                                                                                                                                                        
+                                                                                                                                                                        
+                                                                                                                                                                        
+                                                                                                                                                                        
+                                    .gta6-article-writer-div {display: flex;
+                                                                    width: 17%;
+                                                                    height: 300px;
+                                                                    flex-direction: column;
+                                                                    justify-content: center;
+                                                                    align-items: center;
+                                                                    gap: 20px;
+                                                                                                                                                                                                                            
+                                                                                }
+                                                                                                                                                                        
+                                            .gta6-article-writer-img-div {
+                                                                    width: 50%;
+                                                                    height: 70px;
+                                                                             }
+                                                                                                                                                                        
+                                                                                                                                                                                                        
+                                                .gta6-article-writer-img {width: 100%;
+                                                                    height: 100%;
+                                                                    object-fit: contain;
+                                                                                  }
+                                                                                                                                                                        
+                                                .gta6-article-writer-name-p {color: black;
+                                                                            font-family:Iranyekanmedium;
+                                                                         width: 90px;
+                                                                        text-align: center;}
+                                                                                                                                                                        
+                                                                                                                                                                        
+                                                        .time-icon-gta6-article-div {width: 15%;
+                                                                                    height: 100px;
+                                                                                    display: flex;
+                                                                                    justify-content: center;
+                                                                                    align-items: center;
+                                                                                    padding-right: 20px;}
+                                                                                                                                                                        
+                                                                                                                                                                                                
+                                                        .time-icon-gta6-article-div{ display: flex;
+                                                                                flex-direction: column;
+                                                                                 gap: 30px;
+                                                                                justify-content: center;
+                                                                                align-items: center;
+                                                                                         }
+                                                                                                                                                                        
+                                                        .time-icon-gta6-article-p {font-family:Iranyekanmedium;
+                                                                                        font-size: 13px;
+                                                                                        text-align: center;}    
+                                                                                        
+                                                                                        
+
+    
+
+.more-articles-here-line-link {text-decoration: none;
+                                height: 60px; }
+
+.more-articles-here-line-div {display: flex;
+                                height: 60px;
+                                justify-content: center;
+                                align-items: center;}
+
+
+        .more-articles-here-line-h {color: #6CB5CF;
+                                    font-family:Iranyekanblack;}
+
+
+
+
+
+
+
+
+
+.down-div {display: flex;
+            background-color: #F2F2F2;
+            height: 400px;
+            width: 100%;
+            margin-top: 200px;
+            margin-right: 10px;
+            align-items: center;
+            justify-content: space-evenly;
+            }
+
+
+            .down-downloads {
+                            display: flex;
+                            flex-direction: column;
+                            width: 20%;
+                            gap: 20px;
+                                 }
+
+                        .down-downloads-h {color: black;
+                                            font-family: Iranyekanmedium;
+                                            font-size: 23px;}
+
+                        .down-a {text-decoration: none;
+                                color: black;
+                                font-family: Iranyekanmedium;}
+
+
+            
+            
+            
+            
+            
+            
+            
+            .down-articles {
+                        display: flex;
+                        flex-direction: column;
+                        width: 20%;
+                        gap: 20px;
+                                }
+
+
+                        .down-articles-h {color: black;
+                                            font-family: Iranyekanmedium;
+                                            font-size: 23px;}
+
+
+                        
+            .down-buy-account {
+                        display: flex;
+                        flex-direction: column;
+                        width: 20%;
+                        gap: 20px;
+                                  }
+                        
+                        
+                        .down-buy-account-h {color: black;
+                                        font-family: Iranyekanmedium;
+                                        font-size: 23px;}
+                
+            
+
+            .zarin-pal-div {height: 100px;
+                            width: 10%;
+                            }
+
+                            .zarinpal-img {object-fit: contain;
+                                            height: 100%;
+                                            width: 100%;
+                                           }
+
+
+.social-media {display: flex;
+                height: 50px;
+                justify-content: center;
+                align-items: center;
+                gap: 20px;}
+
+              .fa-youtube-play {color: #bebebe;}
+              .fa-instagram {color: #bebebe;}
+              .fa-telegram {color: #bebebe;}
+
+
+
+
+                            
+            
